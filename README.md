@@ -1,60 +1,9 @@
-Execution : 
+To run the program , Go to InventoryMaintenance\target
 
-cd D:\InventoryMaintenance\target
-java -cp InventoryMaintenance-1.0-SNAPSHOT.jar Main
-Enter Command : create Book01 10.50 13.79
-Enter Command : create Food01 1.47 3.98
-Enter Command : create Med01 30.63 34.29
-Enter Command : create Tab01 57.00 84.98
-Enter Command : updateBuy Tab01 100
-Enter Command : updateSell Tab01 2
-Enter Command : updateBuy Food01 500
-Enter Command : updateBuy Book01 100
-Enter Command : updateBuy Med01 100
-Enter Command : updateSell Food01 1
-Enter Command : updateSell Food01 1
-Enter Command : updateSell Tab01 2
-Enter Command : report
-Enter Command : delete Book01
-Enter Command : updateSell Tab01 5
-Enter Command : create Mobile01 10.51 44.56
-Enter Command : updateBuy Mobile01 250
-Enter Command : updateSell Food01 5
-Enter Command : updateSell Mobile01 4
-Enter Command : updateSell Med01 10
-Enter Command : report
-Enter Command : #
-                    INVENTORY REPORT
-    Item Name               Bought At               Sold At             AvailableQty            Value
-  ===============       =================       ===============      ===================      ============
-    Book01                10.5                      13.79                  100                      1050.0
-    Food01                1.47                      3.98                  493                      724.71
-    Med01                30.63                      34.29                  90                      2756.7
-    Tab01                57.0                      84.98                  91                      5187.0
-  ========================================================================================================
-    Total Value                                                                                     10317.06
-    Profit Since Previous Report                                                                    116.94
-
-
-
-
-
-                    INVENTORY REPORT
-    Item Name               Bought At               Sold At             AvailableQty            Value
-  ===============       =================       ===============      ===================      ============
-    Food01                1.47                      3.98                  493                      724.71
-    Med01                30.63                      34.29                  90                      2756.7
-    Mobile01                10.51                      44.56                  246                      2585.46
-    Tab01                57.0                      84.98                  91                      5187.0
-  ========================================================================================================
-    Total Value                                                                                     11253.86
-    Profit Since Previous Report                                                                    -724.75
+run : `java -cp InventoryMaintenance-1.0-SNAPSHOT.jar Main`
     
-    
-    
-    
-    
-    Problem 3 Inventory Management 1
+
+Problem 3 Inventory Management 1
 
 Mr. X owns a store that sells almost everything you think about. Now he wants a inventory management system to manage his inventory. Mr. X feels that controlling his inventory through SMS from his mobile will be revolutionary. So as a prequel, he decides that he wants a system that accepts one line commands and performs the respective operation.
 
