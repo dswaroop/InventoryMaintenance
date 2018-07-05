@@ -1,0 +1,9 @@
+Main.class
+managedbeans\DynamicPricing.class
+domain\Report.class
+managedbeans\InventoryUtils$1.class
+managedbeans\ValidatorBean.class
+domain\QtyPriceModel.class
+managedbeans\BusinessBean.class
+managedbeans\InventoryUtils.class
+domain\Item.class
